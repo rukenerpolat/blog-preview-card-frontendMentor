@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<a href="#">[  🌐 Live Demo  ]</a> 
+🌐 [View Live Page](https://blog-preview-card-frontendmentorr.netlify.app/)  
 
 </div>
 
@@ -61,7 +61,8 @@ h2 a:active {
 ├── .gitignore      
 └── README.md       
 ```
---- 
+
+<br>
 
 > Thank you for your visit! ♡
 
