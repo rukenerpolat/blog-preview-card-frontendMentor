@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --yellow: hsl(47, 88%, 63%);
+    --white: hsl(0, 0%, 100%);
+    --gray500: hsl(0, 0%, 42%);
+    --gray950: hsl(0, 0%, 7%);
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    min-height: 100vh;
+    font-family: "Figtree", sans-serif;
+    background-color: var(--yellow);
+    color: var(--gray950);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    background-color: var(--white);
+    border: 2px solid var(--gray950);
+    box-shadow: 6px 6px 0 #000;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    max-width: 380px;
+    width: 100%;
+    padding: 20px;
+    margin: 20px;
+}
+
+h2 {
+    margin-bottom: 10px;
+    font-weight: 800;
+}
+
+h2 a {
+    color: var(--gray950);
+    text-decoration: none;
+}
+
+h2 a:active {
+    color: var(--yellow);
+}
+
+h3 {
+    font-size: 1rem;
+    font-weight: 900;
+}
+
+p {
+    color: var(--gray500);
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+.date {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+img {
+    border-radius: 15px;
+}
+
+.sticker {
+    background-color: var(--yellow);
+    color: var(--gray950);
+    box-shadow: 3px 3px 0 #000;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: bold;
+    max-width: 90px;
+    margin: 20px 0;
+    padding: 6px 12px;
+}
+
+.profile {
+    margin: 20px 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.profile-image {
+    width: 40px;
+    margin-right: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 0 #000;
+}
+
+/* FOOTER */
+.attribution {
+    margin-top: 25px;
+    font-size: 13px;
+    text-align: center;
+    color: var(--gray500);
+}
+
+.attribution a {
+    color: var(--gray950);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media (max-width: 500px) {
+    body {
+        padding: 20px;
+    }
+
+    main {
+        margin: 10px;
+        padding: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    main {
+        max-width: 90%;
+        padding: 15px;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+    }
+
+    p {
+        font-size: 0.95rem;
+    }
+}
+
+@media (max-width: 400px) {
+    .profile {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .profile h3 {
+        margin-top: 5px;
+    }
+
+    .sticker {
+        font-size: 0.85rem;
+        padding: 5px 10px;
+    }
+}
