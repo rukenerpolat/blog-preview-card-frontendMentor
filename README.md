@@ -11,18 +11,15 @@ A minimal and responsive blog preview card component built with **HTML** and **C
 ![](./assets/images/03.png)
 
 ## Built With
-
 ✦ HTML5    
 ✦ CSS3 - Flexbox and responsive design      
 ✦ Google Fonts – [Figtree](https://fonts.google.com/specimen/Figtree)  
 
-## Features
-
-- Fully responsive design  
-- Minimal and modern card UI  
+### Features
+– Fully responsive design   
+– Minimal and modern card UI  
 
 #### Header active design: 
-
 ```html
 <h2><a href="#">HTML & CSS foundations</a></h2>
 ```
@@ -45,29 +42,24 @@ h2 a:active {
 
 ![](./assets/images/active-03.png)
 
-
-##  Project Structure
-
+###  Project Structure
 ```
 📂blog-preview-card
-│   
 ├── assets/
 │   └── images/...
-│   
 ├── css/
 │   └── style.css   
-│   
 ├── index.html      
 ├── .gitignore      
 └── README.md       
 ```
 
-<br>
-
-> Thank you for your visit! ♡
-
-<b><em>Ruken ERPOLAT</em></b> <img src="https://media.giphy.com/media/mGcNjsfWAjY5AEZNw6/giphy.gif" width="50">   
+### <img src="https://media.giphy.com/media/mGcNjsfWAjY5AEZNw6/giphy.gif" width="40"> Let’s connect:
 
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-827a67?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/rukenerpolat)
 [![Medium](https://img.shields.io/badge/-Medium-827a67?style=flat&logo=medium&logoColor=white)](https://medium.com/@rukenerpolat)
+[![Frontend Mentor](https://img.shields.io/badge/-Frontend%20Mentor-827a67?style=flat&logo=frontendmentor&logoColor=white)](https://www.frontendmentor.io/profile/rukenerpolat)
 [![GitHub](https://img.shields.io/badge/-GitHub-827a67?style=flat&logo=github&logoColor=white)](https://github.com/rukenerpolat)
+
+Thank you for your visit! 🖖     
+<b><em>Ruken ERPOLAT</em></b>
